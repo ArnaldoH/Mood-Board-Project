@@ -1,0 +1,76 @@
+h1 {
+    font-size: 60px;
+    color: red;
+    text-decoration: underline black;
+    font-family: 'Anton', sans-serif;
+}
+body {
+    background-color: yellow;   
+}
+input {
+    font-family: 'Anton', sans-serif;   
+}
+button {
+    font-family: 'Anton', sans-serif;   
+}
+img {
+    width: 200px;
+    height: 200px;
+}
+.all {
+    margin-top:280px;   
+}
+.intro {
+    display:flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 0 auto;
+}
+.introheading {
+    margin: 0 auto;
+    padding: 15px;
+}
+.introinput, .mood {
+    display:flex;
+    margin: 0 auto;
+    text-align: center;  
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+    border: 2px black solid;
+}
+.introbutton,.continue,.continue2, .continue3, .reset {
+    display:flex;
+    margin: 0 auto;
+    margin-top: 15px;
+    text-align:center;
+    font-size: 20px;
+    background-color: red;
+    border: black 2px solid;
+    
+}
+.stepone, .steptwo, .flexualassult  {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+.greet, .nextline {
+    color: red;
+    font-size: 20px;
+    font-family: 'Anton', sans-serif;
+    text-decoration: underline black;
+}
+.imgtarget {
+    display:flex;
+    width: 50%;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+.nextline {
+    font-size:30px;   
+}
